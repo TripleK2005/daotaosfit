@@ -7,8 +7,8 @@ const cards = document.querySelectorAll('.huy-card');
       const y = e.clientY - rect.top;
       const centerX = rect.width / 2;
       const centerY = rect.height / 2;
-      const rotateX = ((y - centerY) / centerY) * 50; // góc nghiêng theo Y
-      const rotateY = ((x - centerX) / centerX) * -50; // góc nghiêng theo X
+      const rotateX = ((y - centerY) / centerY) * 20; // góc nghiêng theo Y
+      const rotateY = ((x - centerX) / centerX) * -20; // góc nghiêng theo X
       card.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.05)`;
     });
 
