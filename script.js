@@ -1,4 +1,4 @@
-const cards = document.querySelectorAll('.class-card');
+const cards = document.querySelectorAll('.huy-card');
 
   cards.forEach(card => {
     card.addEventListener('mousemove', (e) => {
